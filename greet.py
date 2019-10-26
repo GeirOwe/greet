@@ -1,4 +1,5 @@
 def greet(text):
     return text.lower() + "..."
 
-print(greet("Halais!"))
+val = input("Enter your greeting: ") 
+print(greet(val))
